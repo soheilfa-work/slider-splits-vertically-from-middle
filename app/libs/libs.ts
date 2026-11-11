@@ -1,0 +1,83 @@
+export const settings = {
+  scrollSensitivity: 1200,
+  smoothness: 0.05,
+  bufferSlides: 3,
+  imageShift: 25,
+  copyShift: 15,
+  titleHold: 0.1,
+  imageZoom: 1.25,
+  revealOverlap: 0.5,
+};
+
+export const slides = [
+  {
+    image: "/images/slide1.jpg",
+    title: "Maroon",
+    tags: ["#coat", "#city", "#wool"],
+    accent: "#8e2438",
+    link: "/maroon/",
+  },
+  {
+    image: "/images/slide2.jpg",
+    title: "Floral",
+    tags: ["#dress", "#summer", "#silk"],
+    accent: "#c45c6a",
+    link: "/floral/",
+  },
+  {
+    image: "/images/slide3.jpg",
+    title: "Signal",
+    tags: ["#street", "#editorial", "#color"],
+    accent: "#d6a31a",
+    link: "/signal/",
+  },
+  {
+    image: "/images/slide4.jpg",
+    title: "Suede",
+    tags: ["#knit", "#boots", "#resort"],
+    accent: "#c47a3a",
+    link: "/suede/",
+  },
+  {
+    image: "/images/slide5.jpg",
+    title: "Atelier",
+    tags: ["#tailoring", "#evening", "#silk"],
+    accent: "#0e7c86",
+    link: "/atelier/",
+  },
+  {
+    image: "/images/slide6.jpg",
+    title: "Leather",
+    tags: ["#jacket", "#street", "#menswear"],
+    accent: "#8a5a32",
+    link: "/leather/",
+  },
+  {
+    image: "/images/slide7.jpg",
+    title: "Navy",
+    tags: ["#suit", "#wool", "#formal"],
+    accent: "#1c2f5a",
+    link: "/navy/",
+  },
+  {
+    image: "/images/slide8.jpg",
+    title: "Stripe",
+    tags: ["#suit", "#linen", "#tailored"],
+    accent: "#d9d4c8",
+    link: "/stripe/",
+  },
+  {
+    image: "/images/slide9.jpg",
+    title: "Tailor",
+    tags: ["#suit", "#city", "#bespoke"],
+    accent: "#1a2744",
+    link: "/tailor/",
+  },
+  {
+    image: "/images/slide10.jpg",
+    title: "Camel",
+    tags: ["#coat", "#casual", "#menswear"],
+    accent: "#c49a6c",
+    link: "/camel/",
+  },
+];
